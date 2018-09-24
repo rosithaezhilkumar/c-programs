@@ -1,0 +1,8 @@
+1)What does # means in the syntax?
+A:# is a directive to the C preprocessor
+2)Why include<stdio.h> is used ?
+A: tells the preprocessor to include the contents of the standard input/output header (<stdio.h>) in the program
+3)why is int used and void not used?
+A:both can be used depends on ur choice 
+4)what is the purpose of return?
+A:is included at the end of every main function. The keyword return is one of several means we will use to exit a function
