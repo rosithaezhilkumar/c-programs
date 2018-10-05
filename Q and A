@@ -1,0 +1,6 @@
+What is a variable?
+A variable is a location in memory where a value can be stored for use by a program. 
+What is the type of a variable?
+the datatype specified before the variable.eg int a;
+What are the basic types of a variable in C?
+int ,float, double ,char
