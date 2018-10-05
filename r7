@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+
+int main()
+{
+    int int1,int2,sum;
+    printf("enter the value of integer1 \n");
+    scanf("%d",&int1);
+    printf("enter the value of integer2 \n");
+    scanf("%d",&int2);
+    sum=int1+int2;
+    printf("the sum of integer1 and integer2 is: %d \n",sum);
+    return 0;
+}
