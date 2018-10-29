@@ -4,7 +4,7 @@ float num(int num1, int num2);
  
 int main()
 {
-    int h,b;
+    float h,b;
     printf("enter the height of the triangle");
     scanf("%d",&h);
     printf("enter the base of the triangle");
