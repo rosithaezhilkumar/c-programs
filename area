@@ -6,9 +6,9 @@ int main()
 {
     float h,b;
     printf("enter the height of the triangle");
-    scanf("%d",&h);
+    scanf("%f",&h);
     printf("enter the base of the triangle");
-    scanf("%d",&b);
+    scanf("%f",&b);
     float area;
 
     area = num(h, b);
