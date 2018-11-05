@@ -1,4 +1,23 @@
 #include <stdio.h>
+#include <stdio.h>
+
+int main()
+{
+    int n,x,sum;
+    printf("Enter the size of array");
+    scanf("%d",&n);
+    int array[n];
+ 
+   for (x = 0; x < n; x++)
+   {
+     scanf("%d", &array[x]);
+     sum = sum + array[x];
+   }
+ 
+   printf("Sum = %d\n", sum);
+
+    return 0;
+}
  
 struct triangle
 {
@@ -10,13 +29,11 @@ int main()
 {
     float h,b;
     printf("enter the height of the triangle");
-    scanf("%d",&h);
+    scanf("%f",&h);
     printf("enter the base of the triangle");
-    scanf("%d",&b);
-    float area;
-
-    area = triangle(h, b);
- 
+    scanf("%f",&b);
+    float a;
+    a=triangle(h, b);
     printf( "area value is : %f\n", area );
  
 
@@ -24,6 +41,6 @@ int main()
 }
 float areaf(struct triangle t)
 {
-    float area=0.5*t.height*t.base;
-    return area;
+    float a=0.5*t.height*t.base;
+    return a;
 }
